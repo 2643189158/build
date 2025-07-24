@@ -1,4 +1,4 @@
-name: ace5pro加入kpm可选(主工作流ksun)
+name: 13加入kpm可选(主工作流ksun)
 on:
   workflow_dispatch:
     inputs:
@@ -9,7 +9,7 @@ on:
       FEIL:
         description: "配置文件"
         required: true
-        default: 'oneplus_ace5_pro'
+        default: 'oneplus_13'
       ANDROID_VERSION:
         description: "内核安卓版本"
         required: true
